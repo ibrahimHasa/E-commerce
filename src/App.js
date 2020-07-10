@@ -32,8 +32,7 @@ componentDidMount(){
             id: snapShot.id,
             ...snapShot.data
           }
-        });
-
+        });        
       });
       this.setState({ currentUser: userAuth })
     }
