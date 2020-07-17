@@ -87,7 +87,7 @@ export default class SignUp extends Component {
                     label='Confirm Password'
                     required
                     />
-                    <CustomButton type='submit' on>Sign Up</CustomButton>
+                    <CustomButton type='submit'>Sign Up</CustomButton>
                 </form>
             </div>
         )
